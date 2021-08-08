@@ -1,0 +1,41 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: rgba(255,255,255,.55);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+
+}
+
+.mp-nav-container {
+  display: flex;
+    // flex-wrap: inherit;
+    // align-items: center;
+    justify-content: space-between;
+}
+
+.mp-navbar {
+  padding: .75rem 0;
+  background-color: #7952b3;
+}
+.mp-navbar-active {
+font-weight: 600;
+    color: #fff !important;
+}
